@@ -3,7 +3,8 @@
 
 using namespace std;
 
-string readName() {
+string readName()
+{
   string name;
 
   cout << "Enter Your Name: ";
@@ -11,10 +12,12 @@ string readName() {
   return name;
 }
 
-void printName(string name) {
+void printName(string name)
+{
   cout << "Hello, " << name << endl;
 }
 
-int main() {
+int main()
+{
   printName(readName());
 }

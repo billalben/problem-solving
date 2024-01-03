@@ -3,10 +3,12 @@
 
 using namespace std;
 
-void printName(string name) {
+void printName(string name)
+{
   cout << "Hello, " << name << endl;
 }
 
-int main() {
+int main()
+{
   printName("Billal");
 }

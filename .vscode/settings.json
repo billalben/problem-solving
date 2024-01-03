@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "ostream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "hire_a_driver_01": "cpp"
   }
 }
