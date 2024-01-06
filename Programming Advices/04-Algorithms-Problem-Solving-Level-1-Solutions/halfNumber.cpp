@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int readNumber()
+int readPositiveNumber()
 {
   int num;
 
@@ -25,5 +25,5 @@ void PrintResult(int num)
 
 int main()
 {
-  PrintResult(readNumber());
+  PrintResult(readPositiveNumber());
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 enum enNumberType {odd = 1, even = 2};
 
-int readNumber() {
+int readPositiveNumber() {
   int number;
 
   cout << "Enter a Number: ";
@@ -23,5 +23,5 @@ void printNumberType(enNumberType numberType) {
 }
 
 int main() {
-  printNumberType(checkNumberType(readNumber()));
+  printNumberType(checkNumberType(readPositiveNumber()));
 }
