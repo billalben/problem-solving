@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int readPositiveNumber()
+int readNumber()
 {
   int num;
   cout << "Enter A Number: ";
@@ -50,7 +50,7 @@ void printFrom1ToNByDoWhile(int n)
 
 int main()
 {
-  int n = readPositiveNumber();
+  int n = readNumber();
 
   printFrom1ToNByForLoop(n);
   printFrom1ToNByWhile(n);

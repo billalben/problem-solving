@@ -8,7 +8,7 @@ enum enOddOrEven
   even = 2
 };
 
-int readPositiveNumber()
+int readNumber()
 {
   int num;
   cout << "Enter A Number: ";
@@ -73,7 +73,7 @@ int sumEvenNumbersFrom1ToN_usingDoWhile(int n)
 
 int main()
 {
-  int n = readPositiveNumber();
+  int n = readNumber();
 
   cout << sumEvenNumbersFrom1ToN_usingFor(n) << endl;
   cout << sumEvenNumbersFrom1ToN_usingWhile(n) << endl;
