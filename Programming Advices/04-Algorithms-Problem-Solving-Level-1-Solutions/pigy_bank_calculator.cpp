@@ -31,7 +31,7 @@ stPiggyBankContent readPiggyBankContent()
   return piggyBankContent;
 }
 
-int printPennies(stPiggyBankContent piggyBankContent)
+int calculateTotalPennies(stPiggyBankContent piggyBankContent)
 {
   int totalPennies = 0;
   totalPennies = piggyBankContent.penny * 1 +
@@ -45,7 +45,7 @@ void printDollar(stPiggyBankContent money) {}
 
 int main()
 {
-  int totalPennies = printPennies(readPiggyBankContent());
+  int totalPennies = calculateTotalPennies(readPiggyBankContent());
   cout << "Total Pennies: " << totalPennies << endl;
   cout << "Total Dollars: " << (float)totalPennies / 100 << endl;
 
